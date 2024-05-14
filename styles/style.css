@@ -6,7 +6,7 @@ body {
 
 #btn {
     display: block;
-    background: #4caf50;
+    background: #2b9030;
     color: white;
     font-size: 1.5rem;
     text-transform: capitalize;
@@ -18,7 +18,7 @@ body {
 }
 
 #btn:hover {
-    background: #2b9030;
+    background: #4caf50;
 }
 #joke-container {
     background: #1f1f1f;
@@ -32,7 +32,7 @@ body {
 
 .category {
     color: whitesmoke;
-    text-transform: uppercase;
+    text-transform: ;
 }
 .type {
     margin: 10px;
