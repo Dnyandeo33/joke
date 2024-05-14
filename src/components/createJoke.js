@@ -31,8 +31,8 @@ const createJoke = (jokeData) => {
     // flag element
     const flagsEle = createFlagElement(flags);
 
-    const langEle = createElement('p', 'lang', lang);
-    const safeEle = createElement('p', 'safe', safe);
+    const langEle = createElement('p', 'lang', `Language: ${lang}`);
+    const safeEle = createElement('p', 'safe', `isSafe: ${safe}`);
 
     if (safe) {
         jokeContainer.style.backgroundColor = '#042112';
