@@ -1,3 +1,3 @@
-import loadEvent from './events/loadEvent.js';
+import jokeEvent from './events/jokeEvent.js';
 
-loadEvent();
+jokeEvent();
