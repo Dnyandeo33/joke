@@ -6,7 +6,6 @@ const createJoke = (jokeData) => {
     const {
         category, type, flags, lang, safe,
     } = jokeData;
-
     // joke container
     const jokeContainer = document.createElement('div');
     jokeContainer.classList.add('joke');
@@ -33,10 +32,6 @@ const createJoke = (jokeData) => {
 
     const langEle = createElement('p', 'lang', `Language: ${lang}`);
     const safeEle = createElement('p', 'safe', `isSafe: ${safe}`);
-
-    if (safe) {
-        jokeContainer.style.backgroundColor = '#042112';
-    }
 
     // append flags lang and safe element to jokeContainer
     jokeContainer.append(flagsEle, langEle, safeEle);
